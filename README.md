@@ -10,7 +10,7 @@
 ## 📋 Índice
 
 - [Justificación y Objetivos](docs/Fases%20del%20proyecto.md)
-- [Árbol de Jerarquía / Navegación](docs/arbol-jerarquia.md)
+- [Árbol de Jerarquía / Navegación](docs/Árbol-jerarquia.md)
 - [Diseño de Interfaz](docs/Diseño_Interfaz.md)
 - [Modelo ERR](docs/ERR.md)
 - [Casos de Uso](docs/Notas%20Casos%20de%20uso.md)
