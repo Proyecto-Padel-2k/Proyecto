@@ -1,6 +1,7 @@
 # Proyecto: Padel-Match 
 
-**Autores:** - [Abdelmoghit Samini](https://github.com/Samini04)
+**Autores:** 
+- [Abdelmoghit Samini](https://github.com/Samini04)
 - [Raúl Quilez](Tu Github)  
 - [Sebas](Tu Github)  
 
