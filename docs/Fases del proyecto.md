@@ -4,14 +4,15 @@
 
 ## 💡 Justificación del Proyecto
 
-El pádel es actualmente uno de los deportes de mayor crecimiento en España y Europa. Sin embargo, la organización de partidos entre jugadores amateurs sigue siendo un proceso informal, poco eficiente y frecuentemente frustrante. Los jugadores dependen de grupos de WhatsApp, contactos personales y tablones de clubes para encontrar rivales o compañeros, sin ningún criterio objetivo de compatibilidad de nivel, disponibilidad horaria o ubicación.
+El pádel es un deporte muy popular en España y Europa. Sin embargo, encontrar rivales o compañeros para jugar partidos es un proceso difícil y frustrante. Los jugadores dependen de grupos de WhatsApp, contactos personales y tablones de clubes para encontrar a alguien con quien jugar.
 
 ### El problema
 
-Esta situación genera dos problemas principales que se retroalimentan:
+Este proceso tiene dos problemas principales:
 
-- **Partidos desequilibrados** — la diferencia de nivel entre jugadores reduce la calidad del juego y la satisfacción de todos los participantes.
-- **Alta tasa de cancelaciones** — sin un sistema de compromiso y reputación, las ausencias de última hora son frecuentes y desmotivan a los jugadores más constantes.
+- **Partidos desequilibrados**: La diferencia de nivel entre jugadores reduce la calidad del juego y la satisfacción de todos.
+
+- **Alta tasa de cancelaciones**: Sin un sistema de compromiso y reputación, las ausencias de última hora son frecuentes y desmotivan a los jugadores más constantes.
 
 ### Contexto de mercado
 
@@ -24,12 +25,12 @@ Esta situación genera dos problemas principales que se retroalimentan:
 
 ### Carencias de las soluciones actuales
 
-Las herramientas existentes (grupos de mensajería, tablones físicos, redes sociales generalistas) presentan:
+Las soluciones actuales tienen algunas carencias:
 
-- ❌ Sin filtrado por nivel
+- ❌ No hay filtrado por nivel
 - ❌ Sin historial de fiabilidad ni penalización por cancelaciones
-- ❌ Sin matching automático
-- ❌ Sin métricas ni datos sobre partidos jugados o satisfacción
+- ❌ No hay coincidencia automática
+- ❌ No hay métricas ni datos sobre partidos jugados o satisfacción
 
 ---
 
@@ -43,9 +44,9 @@ Las herramientas existentes (grupos de mensajería, tablones físicos, redes soc
 
 #### Funcionales
 - Implementar un sistema de registro y perfil de jugador con nivel declarado, posición preferida, estilo de juego y disponibilidad horaria.
-- Desarrollar un algoritmo de matching determinista basado en score ponderado (nivel, reputación, preferencias e historial).
+- Desarrollar un algoritmo de determinista de emparejamiento basado en puntuación ponderada (nivel, reputación, preferencias e historial).
 - Habilitar la creación y gestión de solicitudes de partido con fecha, hora, club, nivel requerido y tipo de necesidad.
-- Integrar un sistema de valoración post-partido que construya un índice de reputación y fiabilidad por jugador.
+- Integrar un sistema de valoración post-partido que construye un índice de reputación y confiabilidad por jugador.
 - Incorporar un chat básico para la comunicación entre jugadores emparejados.
 
 #### Técnicos
@@ -115,7 +116,7 @@ No solo se considera el nivel general, sino también la posición preferida (dri
 El sistema distingue entre el nivel **declarado** por el usuario y el nivel **validado** a partir del historial de partidos y valoraciones, evitando el sesgo de autosobreestimación.
 
 ### 3. Fiabilidad del jugador como criterio de matching
-El índice de reputación penaliza cancelaciones y valora la puntualidad y el comportamiento deportivo. Este índice forma parte del algoritmo de scoring, incentivando conductas positivas.
+El índice de reputación penaliza cancelaciones y valora la puntualidad y el comportamiento deportivo.
 
 ---
 
