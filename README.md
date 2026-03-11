@@ -2,7 +2,7 @@
 
 **Autores:** 
 - [Abdelmoghit Samini](https://github.com/Samini04)
-- [Raúl Quilez](Tu Github)  
+- [Raúl Quilez](https://github.com/Quilez42)  
 - [Sebas](Tu Github)  
 
 ---
